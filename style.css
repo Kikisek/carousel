@@ -1,0 +1,57 @@
+.edge {
+    border: 1px solid black;
+    max-width: 400px;
+    width: 100%;
+    height: 200px; 
+     overflow: hidden;     
+    margin: auto;
+    position: relative;
+} 
+
+.review { 
+    /* width: 350px;   */
+    width: 88%;
+    position: absolute;
+    /* left: 375px; */
+    left: 112%;
+} 
+ 
+.allReviews {
+    margin: 4% 6%;
+    position: relative;
+} 
+  
+.center {
+     /* transform: translateX(-375px);  */
+     transform: translateX(-124%); 
+} 
+
+.left {
+     /* transform: translateX(-750px);  */
+     transform: translateX(-248%); 
+}
+
+.smooth {
+    transition: transform 1s;
+}
+
+#buttons {
+    position: absolute; 
+    width: 100%;
+    bottom: 5%; 
+    text-align: center;
+}
+
+.button{
+    display: inline-block;
+    margin: 1%; 
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    width: 8px;
+    height: 8px; 
+    transition: background-color 0.4s;
+}
+
+.selected {
+    background-color: black;
+}
