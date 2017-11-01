@@ -35,13 +35,6 @@
     transition: transform 1s;
 }
 
-#buttons {
-    position: absolute; 
-    width: 100%;
-    bottom: 5%; 
-    text-align: center;
-}
-
 .button{
     display: inline-block;
     margin: 1%; 
@@ -54,4 +47,11 @@
 
 .selected {
     background-color: black;
+}
+
+#buttons {
+    position: absolute; 
+    width: 100%;
+    bottom: 5%; 
+    text-align: center;
 }
